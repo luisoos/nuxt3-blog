@@ -3,6 +3,6 @@ title: "Example Title"
 description: "Example Description"
 ---
 
-# Example Title
+# Nuxt 3 Blog
 
-Example Description
+This is a simple blog made with Nuxt 3, featuring content written in Markdown, a Dark- & Lightmode switch and a minimalist design!
