@@ -1,7 +1,7 @@
 <template>
     <main :class="{ 'theme-light': !darkMode, 'theme-dark': darkMode }" class="h-screen bg-themeBackground p-5">
         <div class="main-div">
-            <div class="flex justify-end">
+            <div class="flex justify-end nav">
                 <Toggle v-model="darkMode" off-label="Light" on-label="Dark"/>
             </div>
 

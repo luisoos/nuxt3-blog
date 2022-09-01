@@ -10,6 +10,7 @@
 
 body * {
     color: var(--text);
+    overflow-x: hidden;
 }
 
 h1 {
@@ -31,6 +32,10 @@ h3 {
     margin-left: 10px;
 }
 
+.toggle * {
+    overflow: hidden;
+}
+
 .main-div {
     width: 700px;
 
@@ -40,7 +45,21 @@ h3 {
 
 @media screen and (max-width: 801px) {
     main {
-        width: 95%;
+        width: 100%;
+    }
+
+    .main-div, .nav {
+        width: 95vw;
+    }
+
+    .toggle-container {
+        transform: translateX(-10px);
+    }
+}
+
+@media screen and (max-width: 401px) {
+    .toggle-container {
+        transform: translateX(-20px);
     }
 }
 
