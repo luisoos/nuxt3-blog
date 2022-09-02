@@ -1,2 +1,2 @@
 # Linguist Overrides
-toggle.css linguist-detectable=false
+toggle.css -linguist-detectable
